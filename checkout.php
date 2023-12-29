@@ -277,61 +277,6 @@
                 messageContainer.style.display = 'none';
             }, 5000); // Adjust the timeout as needed
         }
-
-       /* document.addEventListener("DOMContentLoaded", function () {
-            // Get cart data from sessionStorage
-            let cart = JSON.parse(sessionStorage.getItem("cart")) || [];
-            const checkoutItems = document.getElementById("checkoutItems");
-            const checkoutTotal = document.getElementById("checkoutTotal");
-
-            // Display items from the cart using a table
-            const table = document.getElementById("checkoutItems").getElementsByTagName('tbody')[0];
-            cart.forEach((item, index) => {
-                const row = table.insertRow(-1);
-                const cellTitle = row.insertCell(0);
-                const cellPrice = row.insertCell(1);
-                const cellQuantity = row.insertCell(2);
-                const cellAction = row.insertCell(3);
-
-                cellTitle.textContent = item.title;
-                cellPrice.textContent = `$${item.price.toFixed(2)}`;
-                cellQuantity.textContent = item.quantity;
-                cellAction.innerHTML = `<button class="remove-item" data-index="${index}">Remove</button>`;
-            });
-
-            // Event listener to handle item removal
-            checkoutItems.addEventListener("click", function (event) {
-                if (event.target.classList.contains("remove-item")) {
-                    const index = parseInt(event.target.dataset.index);
-                    // Remove the row from the table
-                    table.deleteRow(index);
-                    // Remove the item from the cart array
-                    cart.splice(index, 1);
-                    // Update the total and sessionStorage
-                    displayCartItems();
-                }
-            });
-
-            // Function to display cart items and update sessionStorage
-            function displayCartItems() {
-                // Update total amount
-                const totalAmount = cart.reduce((total, item) => total + item.price * item.quantity, 0);
-                checkoutTotal.textContent = totalAmount.toFixed(2);
-
-                // Update sessionStorage
-                sessionStorage.setItem("cart", JSON.stringify(cart));
-            }
-
-            // Calculate and update the total amount
-            const totalAmount = cart.reduce((total, item) => total + item.price * item.quantity, 0);
-            checkoutTotal.textContent = totalAmount.toFixed(2);
-
-            // Example: Triggering sessionStorage removal on logout
-            document.getElementById('logoutButton').addEventListener('click', function () {
-                sessionStorage.removeItem('cart');
-                // Additional logic for logging out
-            });
-        });*/
    </script>
     
 </body>
