@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #10c15a;   
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins';
+    background-color: #fff;
+}
+
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+
+    header {
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2em;
+
+        .logo {
+            
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+            font-size: 1.5rem;
+            padding: .5em;
+        }
+
+        span {
+            color: var(--primary-color);
+        }
+
+        .cart {
+            margin-left: -5em;
+            width: 2.5em;
+            cursor: pointer;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        nav {
+            margin: 4em;
+            
+            ul {
+                list-style-type: none;
+                display: flex;
+                gap: 2em;
+                margin: 0;
+
+                li {
+                    a {
+                        text-transform: uppercase;
+                        font-size: 1.1rem;
+                        position: relative;
+
+                    }
+                    .active {
+                        font-weight: bold;
+                    }
+                    
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                    .login {
+                        border: .14em solid black;
+                        border-radius: .5em;
+                        background-color: #fff;
+                        font-weight: bold;
+                        padding: .4em;
+                        margin-left: 3.8em;
+
+                        &:hover {
+                            background-color: var(--primary-color);
+                            color: #000;
+                            text-decoration: none;
+                        }
+
+                    } 
+
+                }
+            }
+        }
+    }
+}
+ 
+a {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    gap: 8em;
+    margin-top: 2em;
+    img {
+        width: 12em;
+    }
+}
+
+.left-col {
+    width: 45%;
+}
+
+.right-col {
+    width: 50%;
+}
+
+.img-card {
+    flex-grow: 1;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Playfair Display';
+    font-weight: 520;
+    margin: 0;
+}
+
+.subhead {
+    font-size: 1.2rem;
+}
+
+.cta-btn {
+    text-align: left;
+    margin-top: 2em;
+    
+        .shop {
+            
+            margin: 0;
+            background-color: var(--primary-color);
+            font-size: 1.25rem;
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+            border-radius: .5em;
+            padding: .6em;
+
+            &:hover {
+                background-color: #17ce63;
+            }
+        }
+}
+
+.right-col {
+    .card {
+        .hero-card {
+            margin-top: -4em;
+            width: 100%;
+            border-radius: .5em;
+            box-shadow: 1rem 1rem 1rem #272d2d;
+            margin-bottom: 8em;
+        }
+    }
+}
+
+
+section {
+
+    .product-cards {
+        max-width: 850px;
+        margin: 0 auto;
+        display: block;
+        justify-content: space-between;
+        gap: 2em;
+
+        .card1 {
+            margin: 0;
+            
+
+            h2 {
+                font-size: 1.8rem;
+                margin: 0;
+                text-align: center;
+                font-family: 'Playfair Display';
+                font-weight: 600;
+            }
+            
+            .watch-subhead {
+                margin: 0;
+                font-size: 1.1rem;
+                text-align: center;
+                margin-bottom: 2em;
+                margin-top: .4em;
+            }
+
+            ul {
+                list-style-type: none;
+                display: flex;
+                gap: 2em;
+                margin: 0;
+                
+                li {
+                    position: relative;
+
+                    img {
+                        width: 100%;
+                        margin-bottom: 1em;
+                    }
+
+                    .productTitle {
+                       
+                        font-size: 1.2rem;
+                        font-weight: bold;
+                        display: block;
+                        margin-left: -.1em;
+    
+                    }
+    
+                    .review {
+                        display: flex;
+                        margin-top: .3em;
+                        margin-bottom: -.3em;
+                        .star {
+                            width: 1.2em;
+                            height: .9em;
+                            margin-top: .1em;
+                            margin-left: .68em;
+                       }
+                    }
+
+
+                    .wasPrice {
+                        font-size: 1.2rem;
+                        margin-top: .4em;
+                        margin: 0;
+                        margin-left: -.1em;
+                        color: red;
+                    }
+                    
+                    .card1ProductPrice {
+                        font-size: 1.2rem;
+                        margin-left: 3.5em;
+                        margin-bottom: 2.3em;
+                        margin-top: -1.6em;
+                        color: #000;
+                        font-weight: 550;
+                    } 
+                }
+            }
+
+            .arrow {
+                width: 30%;
+                margin-right: 5em;
+                border: 0.5px solid black;
+                border-radius: .4em;
+                padding: .6em .2em;
+                margin: 0 auto;
+                background-color: var(--primary-color);
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 6em;
+
+                &:hover {
+                    background-color: #17ce63;
+                }
+                
+                    .more {
+                        text-align: center;
+                        margin: 0 auto;
+                        font-size: 1.2rem;
+                        font-weight: bold;
+                        margin-top: .2em;
+                    } 
+                
+                .right-arrow {
+                    width: 2em; 
+                    margin: 0 auto;
+                    margin-left: -3em;
+                    position: relative;
+                    transition: transform 500ms;
+                    animation: moveArrow 2s alternate-reverse infinite;
+                    
+                }
+            } 
+        }
+
+        .card2 {
+            margin: 0;
+
+            h2 {
+                font-size: 1.8rem;
+                margin: 0;
+                text-align: center;
+                font-family: 'Playfair Display';
+                font-weight: 600;
+            }
+            
+            .lights-subhead {
+                margin: 0;
+                font-size: 1.1rem;
+                text-align: center;
+                margin-bottom: 2em;
+                margin-top: .4em;
+            }
+
+            ul {
+                list-style-type: none;
+                display: flex;
+                gap: 2em;
+                margin: 0;
+                
+                li {
+                    position: relative;
+
+                    img {
+                        width: 100%;
+                        margin-bottom: 1em;
+                    }
+
+                    .productTitle {
+                       
+                        font-size: 1.2rem;
+                        font-weight: bold;
+                        display: block;
+                        margin-left: -.1em;
+    
+                    }
+    
+                    .review {
+                        display: flex;
+                        margin-top: .3em;
+                        margin-bottom: -.3em;
+                        .star {
+                            width: 1.2em;
+                            height: .9em;
+                            margin-top: .1em;
+                            margin-left: .68em;
+                       }
+                    }
+
+
+                    .wasPrice {
+                        font-size: 1.2rem;
+                        margin-top: .4em;
+                        margin: 0;
+                        margin-left: -.1em;
+                        color: red;
+                    }
+                    
+                    .card1ProductPrice {
+                        font-size: 1.2rem;
+                        margin-left: 3.5em;
+                        margin-bottom: 2.3em;
+                        margin-top: -1.6em;
+                        color: #000;
+                        font-weight: 550;
+                    } 
+                }
+            }
+        }
+
+        .card3 {
+            margin: 0;
+            margin-top: 3.5em;
+
+            h2 {
+                font-size: 1.8rem;
+                margin: 0;
+                text-align: center;
+                font-family: 'Playfair Display';
+                font-weight: 600;
+            }
+            
+            .furniture-subhead {
+                margin: 0;
+                font-size: 1.1rem;
+                text-align: center;
+                margin-bottom: 2em;
+                margin-top: .4em;
+            }
+
+            ul {
+                list-style-type: none;
+                display: flex;
+                gap: 2em;
+                margin: 0;
+                
+                li {
+                    position: relative;
+
+                    img {
+                        width: 100%;
+                        margin-bottom: 1em;
+                    }
+
+                    .productTitle {
+                       
+                        font-size: 1.2rem;
+                        font-weight: bold;
+                        display: block;
+                        margin-left: -.1em;
+    
+                    }
+    
+                    .review {
+                        display: flex;
+                        margin-top: .3em;
+                        margin-bottom: -.3em;
+                        .star {
+                            width: 1.2em;
+                            height: .9em;
+                            margin-top: .1em;
+                            margin-left: .68em;
+                       }
+                    }
+
+
+                    .wasPrice {
+                        font-size: 1.2rem;
+                        margin-top: .4em;
+                        margin: 0;
+                        margin-left: -.1em;
+                        color: red;
+                    }
+                    
+                    .card1ProductPrice {
+                        font-size: 1.2rem;
+                        margin-left: 3.5em;
+                        margin-bottom: 2.3em;
+                        margin-top: -1.6em;
+                        color: #000;
+                        font-weight: 550;
+                    }  
+                }
+            }
+        }
+
+        img {
+            width: 12em;
+        }
+    }
+}
+
+
+.services-header {
+    font-size: 1.8rem;
+    margin: 0;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-weight: 600; 
+    margin-top: 4em;
+    margin-bottom: -.10em;  
+}
+
+
+section {
+    
+    .cool-services {
+        max-width: 850px;
+        margin: 0 auto;
+        display: flex;
+        gap: 2em;
+        justify-content: space-between;
+        margin-top: 4em;
+    
+        .services {
+            margin: 0;
+
+            .first-row {
+                display: flex;
+                gap: 2em;
+                margin: 0;
+                position: relative;
+                margin-top: 3em;
+                
+            }
+
+            .second-row {
+                display: flex;
+                gap: 2em;
+                margin: 0;
+                position: relative;
+                margin-top: 3em;
+                                
+            }
+            
+            
+            
+        }
+        
+        .security {
+            .security-subhead {
+                margin-bottom: 3em;
+            }
+        }
+    
+    }
+}
+
+section {
+    
+        display: flex;
+        gap: 2em;
+        margin-top: 2em;
+
+        .contact-section {
+            max-width: 850px;
+        }
+    }
+    
+    
+.contact-left {
+    width: 45%;
+}
+
+.contact-right {
+    width: 50%;
+}
+
+.contact-card {
+    flex-grow: 1;
+}
+
+.contact-right {
+    .contact-col {
+        padding: -10em;
+        background: 3em;
+        border-radius: 2em;
+        .contact-card {
+            inline-size: 100%;
+            aspect-ratio: 16/6;
+            object-fit: cover;
+        }
+    }
+}
+
+footer {
+    padding: 1em;
+    background-color: #eceffc;
+    margin-top: 3em;
+    text-align: center;
+}
+//micro styling
+
+@keyframes moveArrow {
+    from {
+        transform: translateX(20px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}

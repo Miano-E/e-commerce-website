@@ -1,0 +1,465 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+:root {
+  --primary-color: #10c15a;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins";
+  background-color: #fff;
+}
+
+.container {
+  max-width: 850px;
+  margin: 0 auto;
+}
+.container header {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2em;
+}
+.container header .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 1.5rem;
+  padding: 0.5em;
+}
+.container header span {
+  color: var(--primary-color);
+}
+.container header .cart {
+  margin-left: -5em;
+  width: 1.8em;
+  cursor: pointer;
+}
+.container header a {
+  text-decoration: none;
+  color: #000;
+}
+.container header nav {
+  margin: 4em;
+}
+.container header nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2em;
+  margin: 0;
+}
+.container header nav ul li a {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  position: relative;
+}
+.container header nav ul li .active {
+  font-weight: bold;
+}
+.container header nav ul li:hover {
+  text-decoration: underline;
+}
+.container header nav ul li .login {
+  border: 0.14em solid black;
+  border-radius: 0.5em;
+  background-color: #fff;
+  font-weight: bold;
+  padding: 0.4em;
+  margin-left: 3.8em;
+}
+.container header nav ul li .login:hover {
+  background-color: var(--primary-color);
+  color: #000;
+  text-decoration: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  gap: 8em;
+  margin-top: 2em;
+}
+main img {
+  width: 12em;
+}
+
+.left-col {
+  width: 45%;
+}
+
+.right-col {
+  width: 50%;
+}
+
+.img-card {
+  flex-grow: 1;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: "Playfair Display";
+  font-weight: 520;
+  margin: 0;
+}
+
+.subhead {
+  font-size: 1.2rem;
+}
+
+.cta-btn {
+  text-align: left;
+  margin-top: 2em;
+}
+.cta-btn .shop {
+  margin: 0;
+  background-color: var(--primary-color);
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  border-radius: 0.5em;
+  padding: 0.6em;
+}
+.cta-btn .shop:hover {
+  background-color: #17ce63;
+}
+
+.right-col .card .hero-card {
+  margin-top: -4em;
+  width: 100%;
+  border-radius: 0.5em;
+  box-shadow: 1rem 1rem 1rem #272d2d;
+  margin-bottom: 8em;
+}
+
+section .product-cards {
+  max-width: 850px;
+  margin: 0 auto;
+  display: block;
+  justify-content: space-between;
+  gap: 2em;
+}
+section .product-cards .card1 {
+  margin: 0;
+}
+section .product-cards .card1 h2 {
+  font-size: 1.8rem;
+  margin: 0;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-weight: 600;
+}
+section .product-cards .card1 .watch-subhead {
+  margin: 0;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 2em;
+  margin-top: 0.4em;
+}
+section .product-cards .card1 ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2em;
+  margin: 0;
+}
+section .product-cards .card1 ul li {
+  position: relative;
+}
+section .product-cards .card1 ul li img {
+  width: 100%;
+  margin-bottom: 1em;
+}
+section .product-cards .card1 ul li .productTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: block;
+  margin-left: -0.1em;
+}
+section .product-cards .card1 ul li .review {
+  display: flex;
+  margin-top: 0.3em;
+  margin-bottom: -0.3em;
+}
+section .product-cards .card1 ul li .review .star {
+  width: 1.2em;
+  height: 0.9em;
+  margin-top: 0.1em;
+  margin-left: 0.68em;
+}
+section .product-cards .card1 ul li .wasPrice {
+  font-size: 1.2rem;
+  margin-top: 0.4em;
+  margin: 0;
+  margin-left: -0.1em;
+  color: red;
+}
+section .product-cards .card1 ul li .card1ProductPrice {
+  font-size: 1.2rem;
+  margin-left: 3.5em;
+  margin-bottom: 2.3em;
+  margin-top: -1.6em;
+  color: #000;
+  font-weight: 550;
+}
+section .product-cards .card1 .arrow {
+  width: 30%;
+  margin-right: 5em;
+  border: 0.5px solid black;
+  border-radius: 0.4em;
+  padding: 0.6em 0.2em;
+  margin: 0 auto;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6em;
+}
+section .product-cards .card1 .arrow:hover {
+  background-color: #17ce63;
+}
+section .product-cards .card1 .arrow .more {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 0.2em;
+}
+section .product-cards .card1 .arrow .right-arrow {
+  width: 2em;
+  margin: 0 auto;
+  margin-left: -3em;
+  position: relative;
+  transition: transform 800ms;
+  animation: moveArrow 2s alternate-reverse infinite;
+}
+section .product-cards .card2 {
+  margin: 0;
+}
+section .product-cards .card2 h2 {
+  font-size: 1.8rem;
+  margin: 0;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-weight: 600;
+}
+section .product-cards .card2 .lights-subhead {
+  margin: 0;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 2em;
+  margin-top: 0.4em;
+}
+section .product-cards .card2 ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2em;
+  margin: 0;
+}
+section .product-cards .card2 ul li {
+  position: relative;
+}
+section .product-cards .card2 ul li img {
+  width: 100%;
+  margin-bottom: 1em;
+}
+section .product-cards .card2 ul li .productTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: block;
+  margin-left: -0.1em;
+}
+section .product-cards .card2 ul li .review {
+  display: flex;
+  margin-top: 0.3em;
+  margin-bottom: -0.3em;
+}
+section .product-cards .card2 ul li .review .star {
+  width: 1.2em;
+  height: 0.9em;
+  margin-top: 0.1em;
+  margin-left: 0.68em;
+}
+section .product-cards .card2 ul li .wasPrice {
+  font-size: 1.2rem;
+  margin-top: 0.4em;
+  margin: 0;
+  margin-left: -0.1em;
+  color: red;
+}
+section .product-cards .card2 ul li .card1ProductPrice {
+  font-size: 1.2rem;
+  margin-left: 3.5em;
+  margin-bottom: 2.3em;
+  margin-top: -1.6em;
+  color: #000;
+  font-weight: 550;
+}
+section .product-cards .card3 {
+  margin: 0;
+  margin-top: 3.5em;
+}
+section .product-cards .card3 h2 {
+  font-size: 1.8rem;
+  margin: 0;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-weight: 600;
+}
+section .product-cards .card3 .furniture-subhead {
+  margin: 0;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 2em;
+  margin-top: 0.4em;
+}
+section .product-cards .card3 ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2em;
+  margin: 0;
+}
+section .product-cards .card3 ul li {
+  position: relative;
+}
+section .product-cards .card3 ul li img {
+  width: 100%;
+  margin-bottom: 1em;
+}
+section .product-cards .card3 ul li .productTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: block;
+  margin-left: -0.1em;
+}
+section .product-cards .card3 ul li .review {
+  display: flex;
+  margin-top: 0.3em;
+  margin-bottom: -0.3em;
+}
+section .product-cards .card3 ul li .review .star {
+  width: 1.2em;
+  height: 0.9em;
+  margin-top: 0.1em;
+  margin-left: 0.68em;
+}
+section .product-cards .card3 ul li .wasPrice {
+  font-size: 1.2rem;
+  margin-top: 0.4em;
+  margin: 0;
+  margin-left: -0.1em;
+  color: red;
+}
+section .product-cards .card3 ul li .card1ProductPrice {
+  font-size: 1.2rem;
+  margin-left: 3.5em;
+  margin-bottom: 2.3em;
+  margin-top: -1.6em;
+  color: #000;
+  font-weight: 550;
+}
+section .product-cards img {
+  width: 12em;
+}
+
+.services-header {
+  font-size: 1.8rem;
+  margin: 0;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-weight: 600;
+  margin-top: 4em;
+  margin-bottom: -0.1em;
+}
+
+section .cool-services {
+  max-width: 850px;
+  margin: 0 auto;
+  display: flex;
+  gap: 2em;
+  justify-content: space-between;
+  margin-top: 4em;
+}
+section .cool-services .services {
+  margin: 0;
+}
+section .cool-services .services .first-row {
+  display: flex;
+  gap: 2em;
+  margin: 0;
+  position: relative;
+  margin-top: 3em;
+}
+section .cool-services .services .second-row {
+  display: flex;
+  gap: 2em;
+  margin: 0;
+  position: relative;
+  margin-top: 3em;
+}
+section .cool-services .security .security-subhead {
+  margin-bottom: 3em;
+}
+
+section {
+  display: flex;
+  gap: 2em;
+  margin-top: 2em;
+}
+section .contact-section {
+  max-width: 850px;
+}
+
+/*.contact-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45%;
+    height: 100%;
+    iframe {
+        height: 100%;
+    }
+
+}*/
+.contact-left {
+  width: 45%;
+}
+
+.contact-right {
+  width: 50%;
+}
+
+.contact-card {
+  flex-grow: 1;
+}
+
+.contact-right .contact-col {
+  padding: -10em;
+  background: 3em;
+  border-radius: 2em;
+}
+.contact-right .contact-col .contact-card {
+  inline-size: 100%;
+  aspect-ratio: 16/6;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer {
+  padding: 1em;
+  background-color: #eceffc;
+  margin-top: 3em;
+  text-align: center;
+}
+
+@keyframes moveArrow {
+  from {
+    transform: translateX(20px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}/*# sourceMappingURL=main.css.map */

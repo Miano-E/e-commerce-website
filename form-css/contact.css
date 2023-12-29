@@ -1,0 +1,106 @@
+
+h3 {
+    text-align: center;
+    color: #000;
+    font-size: 2.2rem;
+    font-weight: normal;
+}
+
+section {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 8em;
+}
+
+.left-col {
+    width: 35%;
+    margin-top: 3em;
+}
+
+.right-col {
+    width: 55%;
+}
+
+.left-col img {
+    width: 2em;
+    margin-right: 2em;
+    padding: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+form {
+    flex-grow: 1;
+}
+
+li .sub {
+    margin-left: 2em;
+}
+
+.wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: .8em;
+    box-shadow: .9em .8em .5em #7f8397;
+    border-radius: 1.0em;
+    background-color: #dcdff0;
+    margin-top: .7em;
+    margin-bottom: 3em;
+    font-weight: normal;
+}
+
+form label {
+    display: flex;
+    margin-bottom: .1em;
+    margin-left: .15em;
+    font-size: 1.1rem;
+}
+
+input[type="email"],
+input[type="text"] {
+    font-size: 1rem;
+    width: 92%;
+    margin-bottom: .95em;
+    padding: .4em;
+    border-radius: .6em;
+    border: 0.5px solid gray;
+    display: block;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
+textarea {
+    width: 92%;
+    border-radius: .6em;
+    border: 0.5px solid gray;
+    font-size: 1rem;
+}
+
+.submitbtn {
+    width: 80%;
+    padding: .38em;
+    border-radius: .6em;
+    border: none;
+    background-color: rgb(4, 61, 250);
+    margin-left: 1.5em;
+    font-size: 1.35rem;
+    font-weight: bold;
+    color: #fff;
+    margin-top: .4em;
+    font-family: 'Playfair Display', serif;
+}
+
+.submitbtn:hover {
+    background-color: rgb(62, 101, 227);
+}

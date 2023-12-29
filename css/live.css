@@ -1,0 +1,12 @@
+.left-column {
+    width: 35%;
+}
+
+.right-column {
+    width: 50%;
+}
+
+.right-column .wrap img {
+    width: 100%;
+    flex-grow: 1;
+}

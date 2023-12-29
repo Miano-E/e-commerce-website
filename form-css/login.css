@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body{
+    font-size: 1.1rem;  
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+}
+
+h2{
+    text-align: center;
+    font-size: 2.3rem;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    margin-bottom: .5em;
+    font-weight: bold;
+}
+
+.logincontainer {
+    max-width: 370px;
+    margin: 0 auto;
+    padding: .8em;
+    box-shadow: .9em .8em .5em #2e4057;
+    border-radius: 1.0em;
+    background-color: #c5c8d6;
+    margin-top: .1em;
+}
+
+form label {
+    display: flex;
+    margin-bottom: .1em;
+    margin-left: .15em;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 92%;
+    margin-bottom: .95em;
+    padding: .7em;
+    border-radius: .6em;
+    border: 0.5px solid gray;
+    display: block;
+    box-sizing: border-box;
+}
+
+.submitbtn {
+    width: 80%;
+    padding: .25em;
+    border-radius: .6em;
+    border: none;
+    background-color: #2dfb34;
+    margin-left: 1.5em;
+    font-size: 1.35rem;
+    color: #000;
+    margin-top: .4em;
+    font-weight: bold;
+    font-family: 'Playfair Display';
+}
+
+.submitbtn:hover {
+    background-color: #32f038;
+}
+
+.error {
+    margin: 0;
+    font-size: .9em;
+    color: red;
+    margin-bottom: 1.4em;
+}
+
+.check {
+    margin-left: 2.15em;
+}
+
+a {
+    text-decoration: none;
+    color: #1787f7;
+}
+
+a:hover {
+    color: #009fcb;
+    text-decoration: underline;
+}
+
+.demo {
+    font-weight: normal;
+    font-size: 1rem;
+    margin: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}

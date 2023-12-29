@@ -1,0 +1,65 @@
+.logout {
+    border: 0.5px solid black;
+}
+
+ul .checkout-items {
+    display: block;
+}
+
+.checkout-items {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.checkout-items th, .checkout-items td {
+    border: 1px solid #a5a4a4;
+    padding: 8px;
+    text-align: left;
+}
+
+.checkout-items th {
+    background-color: #f2f2f2;
+}
+
+.col-left .total-amount {
+    font-size: 1.4rem;
+    margin-top: 1em;
+}
+
+.container {
+    margin-top: -1em;
+}
+
+.logout {
+    border: .14em solid black;
+    border-radius: .5em;
+    background-color: #fff;
+    font-weight: bold;
+    padding: .4em;
+    margin-left: 3.8em;
+} 
+
+.logout:hover {
+    background-color: #10c15a;
+    color: #000;
+    text-decoration: none;
+}
+
+.wrapper nav ul li {
+    font-weight: normal;
+}
+
+.message-container {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #0dfd15;
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    font-weight: bold;
+    display: none; 
+}

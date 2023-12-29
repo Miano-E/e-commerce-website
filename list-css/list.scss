@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.wrapper {
+    max-width: 850px;
+    margin: 0 auto;
+    
+    header {
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2em;
+        margin-bottom: 1em;
+
+        .logo {
+            
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+            font-size: 1.5rem;
+            padding: .5em;
+        }
+
+        span {
+            color: #10c15a;
+        }
+
+        .cart {
+            margin-left: -5em;
+            width: 2.5em;
+            cursor: pointer;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        nav {
+            margin: 4em;
+            
+            ul {
+                list-style-type: none;
+                display: flex;
+                gap: 2em;
+                margin: 0;
+
+                li {
+                    a {
+                        text-transform: uppercase;
+                        font-size: 1.1rem;
+                        position: relative;
+
+                    }
+                    .active {
+                        font-weight: bold;
+                    }
+                    
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                    
+                    .login {
+                        
+                        border: .14em solid black;
+                        border-radius: .5em;
+                        background-color: #fff;
+                        font-weight: bold;
+                        padding: .4em;
+                        margin-left: 3.8em;
+
+                        &:hover {
+                            background-color: #10c15a;;
+                            color: #000;
+                            text-decoration: none;
+                        }
+
+                    } 
+
+                }
+            }
+        }
+    }
+}
+
+
+
+.container .checks {
+    margin-top: 1em;
+}
+
+.container {
+    max-width: 370px;
+    margin: 0 auto;
+    margin-top: 1em;
+
+    h2 {
+        margin-left: 10em;
+    }
+}
+
+.list-section {
+    background-color: #fff;
+    color: #fff;
+    padding: 2em 1em;
+    border-radius: 1em;
+
+    h2 {
+        color: #000;
+        text-align: center;
+        font-size: 2.4em;
+        font-weight: normal;
+        font-family: 'Playfair Display';
+    }
+
+    p {
+        text-align: center;
+        color: #000;
+        margin-top: -1em;
+        font-size: 1.2em;
+        font-family: 'Poppins';
+    }
+
+    ul {
+        gap: 2em;
+        display: flex;
+        justify-content: space-between;
+
+        li {
+            background-color: #c5c8d6;
+            box-shadow: 10px 10px 25px black;
+            text-align: center;
+            padding: 2em 1em;
+            width: 100%;
+            margin: 0 auto;
+            gap: 10em;
+            border-radius: 1em;
+            list-style-type: none;
+        
+            
+        }
+    
+        img {
+            width: 100%;
+        }
+        
+        .productTitle {  
+            color: #000;        
+            font-size: 1.2rem;
+            font-weight: bold;
+            display: block;
+            margin-left: -6em;
+            margin-bottom: .8em;
+            margin-top: 2em;
+        
+        }
+    
+        a {
+            text-decoration: none;
+        }
+        
+        .review {
+            display: flex;
+            margin-top: .22em;
+            margin-bottom: .6em;
+            margin-left: -1em;
+            
+        }
+        
+        .star {
+            width: 1.2em;
+            height: .9em;
+            margin-top: .1em;
+            margin-left: .8em;
+            color: #fff;
+        }
+        
+        .wasPrice {
+            font-size: 1.2rem;
+            margin-top: .4em;
+            margin: 0;
+            margin-left: -10em;
+            color: rgb(253, 36, 36);
+        }
+        
+        .card1ProductPrice {
+            font-size: 1.2rem;
+            margin-left: -2em;
+            margin-bottom: 2.3em;
+            margin-top: -1.5em;
+            color: #000;
+            font-weight: 550;
+        }
+        
+        .bunch {
+            margin-left: 7em;
+        }
+        
+        button {
+            padding: 1em 2em;
+            border-radius: 1em;
+            border: none;
+            margin-top: -2em;
+            color: #000;
+            font-weight: bold;
+            font-size: 1.2rem;
+            background-color: #10be59;
+        
+        }
+        
+        button:hover {
+            background-color: #27c669;
+        }
+    }
+
+    
+}
+
+
+.watch-section {
+    background-color: #fff;
+    color: #fff;
+    padding: 2em 1em;
+    border-radius: 1em;
+
+    h2 {
+        color: #000;
+        text-align: center;
+        font-size: 2.4em;
+        font-weight: normal;
+        font-family: 'Playfair Display';
+    }
+
+    p {
+        text-align: center;
+        color: #000;
+        margin-top: -1em;
+        font-size: 1.2em;
+        font-family: 'Poppins';
+    }
+
+    ul {
+        gap: 2em;
+        display: flex;
+        justify-content: space-between;
+
+        li {
+            background-color: #c5c8d6;
+            box-shadow: 10px 10px 25px black;
+            text-align: center;
+            padding: 2em 1em; 
+            width: 100%;
+            margin: 0 auto;
+            gap: 10em;
+            border-radius: 1em;
+            list-style-type: none;
+        
+            
+        }
+    
+        img {
+            width: 100%;
+        }
+        
+        .productTitle {  
+            color: #000;        
+            font-size: 1.2rem;
+            font-weight: bold;
+            display: block;
+            margin-left: -6em;
+            margin-bottom: .8em;
+            margin-top: 2em;
+        
+        }
+    
+        a {
+            text-decoration: none;
+        }
+        
+        .review {
+            display: flex;
+            margin-top: .22em;
+            margin-bottom: .6em;
+            margin-left: -1em;
+            
+        }
+        
+        .star {
+            width: 1.2em;
+            height: .9em;
+            margin-top: .1em;
+            margin-left: .8em;
+            color: #fff;
+        }
+        
+        .wasPrice {
+            font-size: 1.2rem;
+            margin-top: .4em;
+            margin: 0;
+            margin-left: -10em;
+            color: rgb(253, 36, 36);
+        }
+        
+        .card1ProductPrice {
+            font-size: 1.2rem;
+            margin-left: -2em;
+            margin-bottom: 2.3em;
+            margin-top: -1.5em;
+            color: #000;
+            font-weight: 550;
+        }
+        
+        .bunch {
+            margin-left: 7em;
+        }
+        
+        button {
+            padding: 1em 2em;
+            border-radius: 1em;
+            border: none;
+            margin-top: -2em;
+            color: #000;
+            font-weight: bold;
+            font-size: 1.2rem;
+            background-color: #10be59;
+        
+        }
+        
+        button:hover {
+            background-color: #27c669;
+        }
+    }
+
+    
+}
+
+
+.furniture-section {
+    background-color: #fff;
+    color: #fff;
+    padding: 2em 1em;
+    border-radius: 1em;
+
+    h2 {
+        color: #000;
+        text-align: center;
+        font-size: 2.4em;
+        font-weight: normal;
+        font-family: 'Playfair Display';
+    }
+
+    p {
+        text-align: center;
+        color: #000;
+        margin-top: -1em;
+        font-size: 1.2em;
+        font-family: 'Poppins';
+    }
+
+    ul {
+        gap: 2em;
+        display: flex;
+        justify-content: space-between;
+
+        li {
+            background-color: #c5c8d6;
+            box-shadow: 10px 10px 25px black;
+            text-align: center;
+            padding: 2em 1em;
+            width: 100%;
+            margin: 0 auto;
+            gap: 10em;
+            border-radius: 1em;
+            list-style-type: none;
+        
+            
+        }
+    
+        img {
+            width: 100%;
+        }
+        
+        .productTitle {  
+            color: #000;        
+            font-size: 1.2rem;
+            font-weight: bold;
+            display: block;
+            margin-left: -6em;
+            margin-bottom: .8em;
+            margin-top: 2em;
+        
+        }
+    
+        a {
+            text-decoration: none;
+        }
+        
+        .review {
+            display: flex;
+            margin-top: .22em;
+            margin-bottom: .6em;
+            margin-left: -1em;
+            
+        }
+        
+        .star {
+            width: 1.2em;
+            height: .9em;
+            margin-top: .1em;
+            margin-left: .8em;
+            color: #fff;
+        }
+        
+        .wasPrice {
+            font-size: 1.2rem;
+            margin-top: .4em;
+            margin: 0;
+            margin-left: -10em;
+            color: rgb(253, 36, 36);
+        }
+        
+        .card1ProductPrice {
+            font-size: 1.2rem;
+            margin-left: -2em;
+            margin-bottom: 2.3em;
+            margin-top: -1.5em;
+            color: #000;
+            font-weight: 550;
+        }
+        
+        .bunch {
+            margin-left: 7em;
+        }
+        
+        button {
+            padding: 1em 2em;
+            border-radius: 1em;
+            border: none;
+            margin-top: -2em;
+            color: #000;
+            font-weight: bold;
+            font-size: 1.2rem;
+            background-color: #10be59;
+        
+        }
+        
+        button:hover {
+            background-color: #27c669;
+        }
+    }
+
+    
+}
+
+footer {
+    padding: 1em;
+    background-color: #eceffc;
+    margin-top: 3em;
+    text-align: center;
+}
+
+.message-container {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #0dfd15;
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    font-weight: bold;
+    display: none; 
+}
